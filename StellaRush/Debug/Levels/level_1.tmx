@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="48" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="24">
+ <tileset firstgid="1" name="CastleTiles" tilewidth="32" tileheight="32" tilecount="56" columns="8">
+  <image source="G:/GitHub/GXPEngine_Pc-4_group/GXPEngine_Pc-4_last_one/gxpv2/GXPEngine2023v2/GXPEngine2023/GXPEngine/bin/Debug/CastleTiles.png" width="256" height="224"/>
+ </tileset>
+ <objectgroup id="4" name="Background Layer" class="Background">
+  <object id="20" name="Background" class="Background" x="0" y="0" width="1536" height="864"/>
+ </objectgroup>
+ <objectgroup id="3" name="Planet Layer">
+  <object id="3" name="Planet" class="Planet" x="704" y="364" width="128" height="128">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="Player and Enemies">
+  <object id="1" name="Player" class="Player" x="720" y="500" width="96" height="96">
+   <ellipse/>
+  </object>
+  <object id="22" class="EnemySpawner" x="1466" y="8" width="64" height="64"/>
+ </objectgroup>
+</map>

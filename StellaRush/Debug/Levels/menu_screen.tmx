@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="48" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="8">
+ <objectgroup id="2" name="Image layer" class="MainMenuBG">
+  <object id="1" class="MainMenuBG" x="0" y="0" width="1536" height="864"/>
+  <object id="6" x="300.5" y="343.5" width="955" height="451">
+   <text fontfamily="Vermin Vibes 1989" pixelsize="80" wrap="1" color="#ffffff" halign="center"> Play
+
+Score
+
+  Quit
+</text>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Text Layer">
+  <object id="4" x="254.5" y="98.5" width="955" height="229">
+   <text fontfamily="Vermin Vibes 1989" pixelsize="153" wrap="1" color="#ffffff" halign="center">Stella Rush</text>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="48" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
+ <objectgroup id="2" name="Image Layer" visible="0">
+  <object id="1" class="MainMenuBG" x="0" y="0" width="1536" height="864"/>
+ </objectgroup>
+ <objectgroup id="8" name="Text Layer">
+  <object id="6" x="260.38" y="580.846" width="1116.53" height="112.411">
+   <text fontfamily="Vermin Vibes 1989" pixelsize="80" wrap="1" color="#ffffff" halign="center">Mars        Jupiter       Venus</text>
+  </object>
+  <object id="11" x="570" y="740" width="457" height="95">
+   <text fontfamily="Vermin Vibes 1989" pixelsize="80" wrap="1" color="#ffffff" halign="center">Back</text>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Planets">
+  <object id="7" class="Mars" x="278.016" y="210" width="256" height="256">
+   <ellipse/>
+  </object>
+  <object id="9" class="Jupiter" x="672" y="210" width="256" height="256">
+   <ellipse/>
+  </object>
+  <object id="10" class="Venus" x="1064.83" y="210" width="256" height="256">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

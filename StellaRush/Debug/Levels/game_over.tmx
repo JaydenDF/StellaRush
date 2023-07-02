@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="48" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="4">
+ <objectgroup id="3" name="Image Layer">
+  <object id="2" class="GameOverBG" x="0" y="0" width="1536" height="864"/>
+  <object id="3" x="520" y="200" width="512" height="614.826">
+   <text fontfamily="Vermin Vibes 1989" pixelsize="80" wrap="1" color="#ffffff" halign="center" valign="center">  Play Again
+      Score
+       Menu
+        Quit</text>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="Text Layer">
+  <object id="1" x="469" y="46" width="626.333" height="249.833">
+   <text fontfamily="Vermin Vibes 1989" pixelsize="120" wrap="1" color="#ff0000" halign="center" valign="center">GAME OVER</text>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="48" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="9">
+ <objectgroup id="3" name="Background Layer">
+  <object id="4" name="Background" class="Background" x="0" y="0" width="1536" height="864"/>
+  <object id="8" class="EnemySpawner" x="1471.46" y="5.2759" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="2" name="Planet Layer">
+  <object id="5" name="Planet" class="Planet" x="704" y="364" width="128" height="128">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Player and Enemies">
+  <object id="6" name="Player" class="Player" x="720" y="500" width="96" height="96">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
